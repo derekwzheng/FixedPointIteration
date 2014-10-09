@@ -7,6 +7,8 @@ def fixedPointIteration(g, x_0, k):
 	"""
 	>>> fixedPointIteration(lambda x: 1.0 - x**3, 0.5, 12)
 	0.0
+	>>> fixedPointIteration(lambda x: 1.0 - x, 0.5, 20)
+	0.5
 	"""
 	x = []
 	x.append(x_0)
